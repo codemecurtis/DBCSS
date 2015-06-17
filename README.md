@@ -41,7 +41,7 @@ I also prefer to use percentages when centering an element so I can ensure that 
 
 ## Fixed
 
-The Fixed Position keeps the element in the exact specified location regardless of ***
+The Fixed Position keeps the element in the exact specified location regardless of the browser size, children or parent elements.
 
 ## Static
 
