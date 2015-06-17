@@ -1,0 +1,25 @@
+.float div{
+	height: 100px;
+	width: 100px;
+}
+
+.float .big{
+	width: 500px;
+	height: 500px;
+	background-color: orange;
+}
+
+.float .left{
+	float: left;
+	background-color: red;
+}
+
+.float .right{
+	float: right;
+	background-color: green;
+}
+
+.float .none{
+	float: none;
+	background-color: black;
+}

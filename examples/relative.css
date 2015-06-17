@@ -1,0 +1,7 @@
+.relative div{
+	height: 100px;
+	width: 100px;
+	background-color: black;
+	position: relative;
+	margin: 5px;
+}

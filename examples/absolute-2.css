@@ -1,0 +1,36 @@
+h2{
+	text-align: center;
+}
+.big div{
+	height: 100px;
+	width: 100px;
+	background-color: #000000;
+}
+
+.absolute .big div{
+	position: absolute;
+}
+
+.left{
+	left: 0;
+}
+.right{
+	right: 0;
+}
+.top{
+	top: 0;
+}
+.bottom{
+	bottom: 0;
+}
+.center{
+	top: 40%;
+	left: 45%;
+}
+
+div.big{
+	width: 500px;
+	height: 500px;
+	background-color: orange;
+	position: relative;
+}

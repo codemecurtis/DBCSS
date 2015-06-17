@@ -1,0 +1,14 @@
+.z-index div{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+}
+
+.z-index .red{
+	background-color: red;
+	z-index: 2;
+}
+.z-index .green{
+	z-index: 1;
+	background-color: green;
+}

@@ -1,0 +1,7 @@
+.inline-block div{
+	height: 100px;
+	width: 100px;
+	background-color: #000000;
+	display: inline-block;
+}
+
