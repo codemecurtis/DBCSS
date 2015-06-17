@@ -12,6 +12,29 @@ Inline block is a very commonly used positioning property for navigation or HTML
 
 I targeted the HTML `div` element which I do not recommend doing becuase of CSS Specificity. When possible always use a class or id selector.
 
+Something like this:
+
+<pre>
+  <code>
+  &lt;nav class="navigation"&gt;
+    &lt;ul class="nav-links"&gt;
+      &lt;li class="nav-items"&gt;&lt;/li&gt;
+      &lt;li class="nav-items"&gt;&lt;/li&gt;
+      &lt;li class="nav-items"&gt;&lt;/li&gt;
+      &lt;li class="nav-items"&gt;&lt;/li&gt;
+    &lt;/ul>
+  &lt;/nav>
+  </code>
+</pre>
+
+<pre>
+  <code>
+  nav .nav-links .nav-items{
+    display: inline-block;
+  }
+  </code>
+</pre>
+
 ## Block
 Display block is a way to ask the HTML element to act as it should and override any default inline style.
 
